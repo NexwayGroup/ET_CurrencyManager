@@ -1,0 +1,19 @@
+{
+    "name": "nexway/magento-currencymanager",
+    "version": "1.2.5",
+    "type": "magento-module",
+    "homepage": "https://github.com/NexwayGroup/Magento-CurrencyManager",
+    "keywords": ["currency", "magento"],
+    "description": "Currency manager",
+
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+
+    "extra": {
+        "auto-append-gitignore": false,
+        "magento-root-dir": "./",
+        "magento-force": "1",
+        "magento-deploystrategy": "symlink"
+    }
+}
